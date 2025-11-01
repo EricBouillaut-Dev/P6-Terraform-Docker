@@ -12,15 +12,6 @@ Ce projet déploie automatiquement un conteneur Nginx en utilisant Terraform. Le
 - Docker installé et en cours d'exécution
 - Accès à Internet pour télécharger l'image Docker
 
-## Structure du projet
-
-```
-.
-├── main.tf           # Configuration Terraform principale
-├── .gitignore        # Fichiers à exclure du versionnement
-└── README.md         # Documentation du projet
-```
-
 ## Configuration
 
 Le fichier `main.tf` contient :
@@ -77,6 +68,5 @@ terraform destroy
 
 ## Auteur
 
-Nom : Eric Bouillaut
-Contexte : Projet réalisé dans le cadre de la formation OC-Expert DevOps - Projet 6
+Eric Bouillaut : Projet réalisé dans le cadre de la formation OC-Expert DevOps - Projet 6
 
